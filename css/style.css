@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    color: #66605c;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerR{
+    display: flex;
+}
+.containerC{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 50px;
+}
+nav{
+    width: 100%;
+    padding: 10px;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #ed6e7f;
+    margin-right: auto;
+}
+.logo span{
+    color: #ffaaaa;
+}
+nav img{
+    width: 30px;
+}
+.navBar{
+    gap: 12px;
+}
+a{
+    text-decoration: none;
+    color: #989491;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.2s;
+}
+.navBar a{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.navBar a:hover{
+    color: #ed6e7f;
+    border: 1px solid #ed6e7f;
+}
+.navBar a:active{
+    color: #ffaaaa;
+}
+.navBar .active{
+    color: #1a120b;
+}
+.btn{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btnOutline{
+    margin-left: 20px;
+    color: #ed6e7f;
+    border: 1px solid #ed6e7f;
+    transition: all 0.2s;
+}
+.btnOutline:hover{
+    color: #ffaaaa;
+    border: 1px solid #ffaaaa;
+}
+.sect{
+    /* padding: 50px; */
+}
+.hero{
+    height: 400px;
+    border-radius: 50px;
+    background-color: #ffe5e5;
+}
